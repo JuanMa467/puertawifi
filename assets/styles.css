@@ -1,0 +1,69 @@
+body{
+background-color: rgb(0, 0, 0);
+color: white;
+}
+/*
+nav
+*/
+.navbar.navbar-expand-lg.bg-light{
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(252,0,0,1) 43%, rgb(1, 213, 255) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(252,0,0,1) 43%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(252,0,0,1) 43%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+    
+}
+/*
+redes sociales
+*/
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-brands.fa-github.fa-2xl,
+i.fa-solid.fa-user.fa-2xl
+{
+  color: #ffffff;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+  color:hotpink;
+}
+i.fa-solid.fa-music.fa-2xl:hover{
+  color:rgba(14, 244, 14, 0.625);
+}
+
+i.fa-brands.fa-github.fa-2xl:hover{
+  color: #3d506a;
+}
+
+
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color:transparent;
+}
+/*
+redes sociales termina
+*/
+/*
+Fuentes
+*/
+.titulazo{
+    font-family: 'Amatic SC', cursive;
+  }
+  
+.acercaDeNosotros{
+    font-family: 'Shadows Into Light', cursive;
+    background: rgb(0,0,0);
+  background: -moz-linear-gradient(0deg,rgb(0, 140, 255) 0%,  rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgb(0, 140, 255) 0%,rgba(0,0,0,1) 100%);
+  background: linear-gradient(0deg, rgb(0, 140, 255) 0%,rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#2dfcfd",GradientType=1);
+}
+.btn{
+  display: inline;
+  padding: 50px 45px;
+  border-radius: 50%;
+}
+.btn-light:hover{
+ color: green;
+}
+.btn-dark:hover{
+  color: red;
+ }
